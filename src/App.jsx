@@ -1,11 +1,12 @@
 import { useState } from "react";
 import "./App.css";
-import { DndKitTest } from "./components";
+import { DndKitTest, ApiDataComponent } from "./components";
 
 function App() {
   return (
     <div>
-      <DndKitTest/>
+      {/* <DndKitTest/> */}
+      <ApiDataComponent/>
     </div>
   );
 }
